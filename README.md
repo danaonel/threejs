@@ -6,6 +6,8 @@ An interactive 3D house scene built with **Three.js**, **TypeScript**, and **Vit
 
 > Orbit, pan, and zoom around a 3D house with a day-sky background, dynamic shadows, and selectable roof shingle textures.
 
+[https://danaonel.github.io/threejs/]https://danaonel.github.io/threejs/
+
 ## Features
 
 - **3D House Model** — Box walls, A-frame triangular prism roof with overhang, gable end walls, door, and roof ridge accent
