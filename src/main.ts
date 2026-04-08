@@ -104,7 +104,7 @@ const roofCapTextureCache = new Map<string, THREE.Texture>()
 function getRoofTexture(fileName: string): THREE.Texture {
   let texture = roofTextureCache.get(fileName)
   if (!texture) {
-    texture = roofTextureLoader.load(`/img/${encodeURIComponent(fileName)}`)
+    texture = roofTextureLoader.load(`./img/${encodeURIComponent(fileName)}`)
     texture.wrapS = THREE.RepeatWrapping
     texture.wrapT = THREE.RepeatWrapping
     texture.repeat.set(0.5, 0.5)
@@ -118,7 +118,7 @@ function getRoofTexture(fileName: string): THREE.Texture {
 function getRoofCapTexture(fileName: string): THREE.Texture {
   let texture = roofCapTextureCache.get(fileName)
   if (!texture) {
-    texture = roofTextureLoader.load(`/img/${encodeURIComponent(fileName)}`)
+    texture = roofTextureLoader.load(`./img/${encodeURIComponent(fileName)}`)
     texture.wrapS = THREE.RepeatWrapping
     texture.wrapT = THREE.RepeatWrapping
     texture.repeat.set(0.5, 0.5)
